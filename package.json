@@ -5,6 +5,7 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
+    "start": "node ./refer/http_demo2.js",
     "dev": "nodemon ./refer/http_demo2.js"
   },
   "author": "Ning Wang",
