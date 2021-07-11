@@ -1,0 +1,18 @@
+{
+  "name": "node-tutorial",
+  "version": "1.0.0",
+  "description": "prepare for SDA presentation",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./refer/http_demo2.js"
+  },
+  "author": "Ning Wang",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.11"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
