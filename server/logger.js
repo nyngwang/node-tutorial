@@ -3,10 +3,11 @@ import { v4 } from "uuid"
 
 class Logger extends EventEmitter {
   log(msg) {
-    this.emit("message", {
+    const data = {
       id: v4(),
       msg
-    })
+    }
+    this.emit("message", data)
     console.log("Logger just emitted.")
   }
 }
